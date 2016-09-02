@@ -1,0 +1,11 @@
+{
+    "presets": ["es2015"],
+    "plugins": [
+        ["typecheck", {
+            "disable": {
+                "production": true
+            }
+        }], "syntax-flow", "transform-flow-strip-types",
+        "babel-plugin-add-module-exports"
+    ]
+}
